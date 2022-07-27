@@ -1,0 +1,18 @@
+composer:
+  last: Galuppi
+  first: Baldassare
+title: Tantum ergo
+id: BurG IV/7
+genre: hymn
+scoring: S (solo), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2973-E-20
+    date: 1750–1764
+    rism: 212006120
+    url: https://digital.slub-dresden.de/id42645524X
+    license: public domain
+    principal: true
+imslp: Tantum_ergo,_BurG_IV/7_(Galuppi,_Baldassare)
