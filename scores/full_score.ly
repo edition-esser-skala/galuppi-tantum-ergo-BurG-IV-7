@@ -6,8 +6,13 @@
 \book {
   \bookpart {
     \section "Tantum ergo"
-    % \addTocEntry
-    \paper { indent = 3\cm }
+    \addTocEntry
+    \paper {
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
+      systems-per-page = #2
+      indent = 3\cm
+    }
     \score {
       <<
         \new StaffGroup <<
@@ -43,8 +48,8 @@
         >>
         \new FiguredBass { \TantumBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 70 }
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+      \midi { \tempo 4 = 60 }
     }
   }
 }

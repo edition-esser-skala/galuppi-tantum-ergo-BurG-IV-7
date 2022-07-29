@@ -2,11 +2,13 @@
 
 #(define option-movement-title-format "title")
 #(define option-init-toc #t)
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
 
 
 tempoTantum = \tempoMarkup "Andante sostenuto"
+tempoGenitori = \tempoMarkup "Genitori · [Allegretto]"
+tempoAmen = \tempoMarkup "Amen · Allegro"
 
 
 \include "notes/vl1.ly"
