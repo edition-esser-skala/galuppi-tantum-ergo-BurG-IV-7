@@ -6,26 +6,16 @@
 
 \book {
   \bookpart {
-    \section "1" "First"
+    \section "Tantum ergo"
     \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "Organo"
-          \xxxOrgano
+          \TantumOrgano
         }
-        \new FiguredBass { \xxxBassFigures }
-      >>
-    }
-  }
-  \bookpart {
-    \section "2" "Second"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \yyyOrgano }
-        \new FiguredBass { \yyyBassFigures }
+        \new FiguredBass { \TantumBassFigures }
       >>
     }
   }
